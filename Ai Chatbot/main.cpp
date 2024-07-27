@@ -4,6 +4,7 @@
 //
 //  Created by Naim Lindsay on 7/26/24.
 //
+//
 
 #include <iostream> // used for input and output
 #include <string> // used for using strings
@@ -92,6 +93,6 @@ std::string getResponse(const std::string& userInput) {
         return responses[lowerInput]; // Return the matching response
     } else {
         //if we dont have any this is the default response
-        return "I'm still under development by Naim, so my capabilities are currently limited. To assist you better, could you please try rephrasing your question?"; // Default response
+        return "I'm still under development by my creator Naim, so my capabilities are currently limited. To assist you better, could you please try rephrasing your question?"; // Default response
     }
 }
